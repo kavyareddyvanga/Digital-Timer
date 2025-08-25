@@ -1,0 +1,126 @@
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to right, #cffcf1, #defafe);
+  font-family: 'Roboto', sans-serif;
+}
+.image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 600px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.heading {
+  font-size: 36px;
+  font-weight: bold;
+  color: #0f172a;
+  margin-bottom: 50px;
+}
+.buttons {
+  display: flex;
+}
+.timer-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+}
+
+.timer-circle {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background: #00d9f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+  margin-right: 40px;
+}
+
+.time-text {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.status-text {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 5px 0 0 0;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 8px;
+  cursor: pointer;
+  color: #1e293b;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.limit-controls {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.limit-label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #1e293b;
+}
+
+.limit-box {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+  background-color: #00d9f5;
+  padding: 8px 16px;
+  border-radius: 8px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.limit-btn {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0 12px;
+}
+
+.limit-value {
+  font-size: 20px;
+  margin: 0;
+}
