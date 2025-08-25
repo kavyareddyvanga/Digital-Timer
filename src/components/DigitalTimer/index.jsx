@@ -1,36 +1,4 @@
-// // Write your code here
-// import {Component} from 'react'
 
-// import './index.css'
-
-// class DigitalTimer extends Component {
-//   state = {
-//     isTimeRunning: false,
-//     minutes: 25,
-//     seconds: 0,
-//   }
-
-//   render() {
-//     const {minutes, seconds, isTimeRunning} = this.state
-//     return (
-//       <div className="app-container">
-//         <h1 className="heading">Digital Timer</h1>
-//         <div className="card-container">
-//           <div className="timer-img">
-//             <div className="timer">
-//               <h1 className="time-min-sec">
-//                 {String(minutes).padStart(2, '0')}:
-//                 {String(seconds).padStart(2, '0')}
-//               </h1>
-//               <p>{isTimeRunning ? 'Running' : 'Paused'}</p>
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     )
-//   }
-// }
-// export default DigitalTimer
 import React, {Component} from 'react'
 import './index.css'
 
